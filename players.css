@@ -1,0 +1,115 @@
+body{
+    background:url("mar.jpg");
+}
+.header{
+  margin-top: 10px;
+  display: flex;
+  background-color: black;
+}
+.home{
+  margin-top: 70px;
+  position: absolute;
+  left: 70%;
+  border: none;
+  width: auto;
+  display: flex;
+}
+.home div:hover{
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 30px;
+}
+
+
+  /* players pictures */
+/* number1 */
+  .players{
+    height: 355px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+  .players .pic{
+    border: solid dodgerblue 4px;
+  }
+  .players .pic h4{
+    border: solid black 2px;
+    background-color: dodgerblue;
+  }
+  .players .pic img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+
+  }
+  /* NUMBER2 */
+  .players .pic1{
+    border: solid   BLACK 4px;
+  }
+  .players .pic1 h4{
+    border: solid black 2px;
+    background-color: maroon;
+  }
+  .players .pic1 img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+  }
+  /* NUMBER3 */
+  
+  .players .pic2{
+    border: solid yellow 4px;
+  }
+  .players .pic2 h4{
+    border: solid black 2px;
+    background-color: yellow;
+  }
+  .players .pic2 img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+  }
+  
+  /* NUMBER4 */
+  
+  .players .pic3{
+    border: solid orangered 4px;
+  }
+  .players .pic3 h4{
+    border: solid black 2px;
+    background-color: orangered;
+  }
+  .players .pic3 img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+  }
+
+  /* NUMBER5 */
+  
+  .players .pic4{
+    border: solid silver 4px;
+  }
+  .players .pic4 h4{
+    border: solid black 2px;
+    background-color: silver;
+  }
+  .players .pic4 img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+  }
+  /* NUMBER6 */
+  
+  .players .pic5{
+    border: solid cadetblue 4px;
+  }
+  .players .pic5 h4{
+    border: solid black 2px;
+    background-color: cadetblue;
+  }
+  .players .pic5 img:hover{
+    transition: 1s;
+    transform: scale(1.3);
+  }
+/* footer */
+.bottom{
+    background-color: black;
+    color: maroon;
+  }

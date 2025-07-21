@@ -1,0 +1,64 @@
+/* working on header */
+/* FOR NAVIGATION BAR */
+.header{
+  margin-top: 10px;
+  display: flex;
+  background-color: black;
+}
+.home{
+  margin-top: 70px;
+  position: absolute;
+  left: 70%;
+  border: none;
+  width: auto;
+  display: flex;
+}
+.home div:hover{
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 30px;
+}
+    
+    
+    body{
+    
+        background-image: url('braf.png');
+    }
+    /* on add to cart button */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        border: black 3px solid;
+      }
+      
+      .price {
+        color: WHITE;
+        font-size: 22px;
+      }
+      
+      .card button {
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        border: SOLID black 3PX;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+        background-color: RED;
+      }
+    
+    
+      /* BOTTOM CSS */
+      .bottom{
+        margin-top: 50px;
+        background-color: goldenrod;
+        color: black;
+    }

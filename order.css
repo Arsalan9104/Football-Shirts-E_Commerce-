@@ -1,0 +1,118 @@
+/* working on header */
+/* FOR NAVIGATION BAR */
+.header{
+  margin-top: 10px;
+  display: flex;
+  background-color: black;
+}
+.home{
+  margin-top: 70px;
+  position: absolute;
+  left: 70%;
+  border: none;
+  width: auto;
+  display: flex;
+}
+.home div:hover{
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 30px;
+}
+
+    body{
+
+        background-image: url('porf.jpg');
+        background-size: cover;
+    }
+    /* on add to cart button */
+    .contact
+{
+    width: 70%;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.407);
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact .form
+{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.6);
+    transition-duration: 0.4s;
+}
+.contact .form:hover
+{
+    background-color: rgba(240, 248, 255, 0.799);
+    transform: scale(1.1    );
+}
+.contact .form1
+{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.608);
+    transition-duration: 0.4s;
+}
+.contact .form1:hover
+{
+    background-color: rgba(240, 248, 255, 0.799);
+    transform: scale(1.1);
+}
+/* form one ended */
+
+.contact .form1 h2
+{
+    padding-top: 10px;
+    font-family: poppins;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+}
+.contact .form1 h2:hover
+{
+    color: maroon;
+    transform: scale(1.1);
+}
+.contact .form1 form label
+{
+    font-weight:600;
+    margin-left: 20px;
+}
+.contact .form1 form input
+{
+    margin-left: 30%;
+}
+.contact .form1 form label input
+{
+    padding: 2px;
+    margin-left: 20px;
+}
+.contact .form1 form label textarea
+{
+    height: 100px;
+    width:  80%;
+    margin-left: 20px;
+}
+.contact .form1 .submit
+{
+    font-family: poppins;
+    width: 40%;
+    height: 10%;
+    background-color: rgba(0, 255, 255, 0.399);
+    transition-duration: 0.4s;
+}
+.contact .form1 .submit:hover
+{
+    background-color: rgba(0, 0, 0, 0.405);
+    color: white;
+    font-family: poppins;
+}
+
+/* foter */
+
+.bottom{
+  background-color: black;
+  color: maroon;
+}
